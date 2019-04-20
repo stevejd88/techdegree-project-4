@@ -2,16 +2,11 @@
 // index.scss
 // Main Sass file used to import partials
 // **************************************
-h1 {
-  color: red;
-}
 
-h2 {
-  color: blue;
-}
 
 // NOTE: import utilities and base partials here:
-
+@import 'utilities';
+@import 'base';
 
 
 // import components partials
