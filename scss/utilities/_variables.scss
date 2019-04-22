@@ -1,11 +1,17 @@
 //******************
 // Variables
 //*****************
+// Colors
+$color-primary: #66e6bb;
+$color-secondary: #00e0ff;
 
-$white: ;
+$color-text: #303030;
+$color-text-light: lighten($color-text, 10%);
+$color-text-dark: darken($color-text, 10%);
 
-$color-primary: ;
-$color-secondary: ;
-$color-body-text: ;
-$color-heading-text: ;
-$color-quote-text: ;
+// Fonts
+
+// Layout
+
+
+// Breakpoints
