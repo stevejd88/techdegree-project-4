@@ -494,4 +494,17 @@ ul {
   }
 }
 
+.container {
+  text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+  border-style: none;
+}
+
+.btn {
+  border: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
