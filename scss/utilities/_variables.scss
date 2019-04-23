@@ -2,6 +2,8 @@
 // Variables
 //*****************
 // Colors
+$white: #ffffff;
+
 $color-primary: #66e6bb;
 $color-secondary: #00e0ff;
 
@@ -10,7 +12,7 @@ $color-text-light: lighten($color-text, 10%);
 $color-text-dark: darken($color-text, 10%);
 
 // Fonts
-
+$font-stack-primary: 'Helvetica Neue', 'Helvetica', sans-serif;
 // Layout
 
 
