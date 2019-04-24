@@ -350,7 +350,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
-  margin: 0;
 }
 
 ul {
@@ -361,6 +360,8 @@ ul {
   padding: 1em 10px;
   display: flex;
   flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 @media (min-width: 768px) {
   .grid__row {
