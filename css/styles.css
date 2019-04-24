@@ -356,6 +356,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -499,13 +503,27 @@ ul {
   text-align: center;
 }
 
+.headline--secondary {
+  text-align: left;
+}
+
 input[type=text],
 input[type=password] {
   border-style: none;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   border: none;
+}
+
+.nav__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

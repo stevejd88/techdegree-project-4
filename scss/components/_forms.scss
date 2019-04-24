@@ -6,3 +6,8 @@ input[type="text"],
 input[type="password"] {
   border-style: none;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}

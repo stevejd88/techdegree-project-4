@@ -11,9 +11,14 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-family: $font-stack-primary;
-  
+
 }
 
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+
 }
