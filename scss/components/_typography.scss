@@ -3,8 +3,26 @@
 //*****************
  .container {
    text-align: center;
+   width: 75%;
+   margin: auto;
+}
+
+.headline--primary {
+  color: $color-primary;
+  line-height: 1.2;
 }
 
 .headline--secondary {
+  font-weight: normal;
+  color: $color-text-light;
   text-align: left;
+}
+
+.blockquote {
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 350;
+  padding-left: 15px;
+  border-left: 10px solid $color-primary;
+  border-radius: 10px;
 }

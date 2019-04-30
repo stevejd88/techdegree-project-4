@@ -12,11 +12,10 @@
 
   // .grid__row
   &__row {
-    padding: 1em 10px;
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
-    margin-right: 25px;
+
+
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {
@@ -62,7 +61,7 @@
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {
-
+      @include center;
       // add grid gutter
       margin-left: 10px;
     }

@@ -4,16 +4,16 @@
 // Colors
 $white: #ffffff;
 
-$color-primary: #66e6bb;
+$color-primary: #59d7ad;
 $color-secondary: #00e0ff;
 
-$color-text: #303030;
+$color-text: #868282;
 $color-text-light: lighten($color-text, 10%);
 $color-text-dark: darken($color-text, 10%);
 
 // Fonts
 $font-stack-primary: 'Helvetica Neue', 'Helvetica', sans-serif;
 // Layout
-
+$max-width: 1000px;
 
 // Breakpoints
