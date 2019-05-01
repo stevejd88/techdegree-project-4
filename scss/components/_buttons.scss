@@ -5,3 +5,29 @@
 button {
   border: none;
 }
+
+%btn {
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  @include center;
+}
+
+.btn {
+  &--default {
+    @extend %btn
+  }
+  &--success {
+    @extend %btn
+  }
+  &--error {
+    @extend %btn
+  }
+  &--warning {
+    @extend %btn
+  }
+  &--info {
+    @extend %btn
+  }
+}
