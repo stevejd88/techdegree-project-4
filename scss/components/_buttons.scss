@@ -2,32 +2,32 @@
 //buttons
 //*******************
 
-button {
-  border: none;
-}
+
 
 %btn {
-  color: $white;
-  display: flex;
-  flex-direction: column;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: .5em;
   margin-top: 20px;
   @include center;
 }
 
 .btn {
   &--default {
-    @extend %btn
+    @extend %btn;
+    background-color: red;
   }
   &--success {
-    @extend %btn
+    @extend %btn;
   }
   &--error {
-    @extend %btn
+    @extend %btn;
   }
   &--warning {
-    @extend %btn
+    @extend %btn;
   }
   &--info {
-    @extend %btn
+    @extend %btn;
   }
 }

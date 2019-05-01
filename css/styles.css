@@ -548,14 +548,11 @@ input[type=password] {
   display: none;
 }
 
-button {
-  border: none;
-}
-
 .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
   margin-top: 20px;
   text-align: center;
   width: 100%;
@@ -563,6 +560,9 @@ button {
   margin-right: auto;
 }
 
+.btn--default {
+  background-color: red;
+}
 .nav__item {
   color: red;
   padding-top: 10px;
