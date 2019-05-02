@@ -5,10 +5,11 @@
 
 
 %btn {
+  color: $white;
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-  padding: .5em;
+  padding: 1em;
   margin-top: 20px;
   @include center;
 }
@@ -16,18 +17,22 @@
 .btn {
   &--default {
     @extend %btn;
-    background-color: red;
+    background-color: $color-secondary;
   }
   &--success {
     @extend %btn;
+    background-color: $button-green;
   }
   &--error {
     @extend %btn;
+    background-color: $button-red;
   }
   &--warning {
     @extend %btn;
+    background-color: $button-orange;
   }
   &--info {
     @extend %btn;
+    background-color: $button-purple;
   }
 }

@@ -363,7 +363,7 @@ a {
 
 .grid__col--8 a {
   text-decoration: none;
-  color: #00e0ff;
+  color: #5bdef0;
 }
 
 .grid__row {
@@ -537,6 +537,7 @@ input[type=password] {
   border-style: none;
   border-bottom: 6px solid #59d7ad;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .form {
@@ -549,10 +550,11 @@ input[type=password] {
 }
 
 .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+  color: #ffffff;
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-  padding: 0.5em;
+  padding: 1em;
   margin-top: 20px;
   text-align: center;
   width: 100%;
@@ -561,8 +563,21 @@ input[type=password] {
 }
 
 .btn--default {
-  background-color: red;
+  background-color: #5bdef0;
 }
+.btn--success {
+  background-color: #61bd6d;
+}
+.btn--error {
+  background-color: #da6464;
+}
+.btn--warning {
+  background-color: #f9704d;
+}
+.btn--info {
+  background-color: #9971c6;
+}
+
 .nav__item {
   color: red;
   padding-top: 10px;
