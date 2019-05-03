@@ -369,6 +369,7 @@ a {
 .grid__row {
   display: flex;
   flex-direction: column;
+  padding-top: 1.5em;
 }
 @media (min-width: 768px) {
   .grid__row {
@@ -496,6 +497,55 @@ a {
   }
 }
 
+.grid__col--12.theme__colors {
+  background-color: #82e1c1;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #2cd5ec;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #8ae7f4;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--3.theme__colors {
+  background-color: #b395d5;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #85cc8e;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #e48d8d;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #fb987e;
+  text-align: left;
+  padding-left: 0.8em;
+  border-radius: 0.3em;
+}
+
 @media (min-width: 768px) {
   [class^=grid__col] + [class^=grid__col] {
     text-align: center;
@@ -591,6 +641,12 @@ input[type=password] {
   margin-right: auto;
   max-width: 50%;
   padding: 15px 0;
+}
+
+.img--frame {
+  max-width: 100%;
+  border: 1px solid #868282;
+  padding: 0.8em;
 }
 
 /*# sourceMappingURL=styles.css.map */

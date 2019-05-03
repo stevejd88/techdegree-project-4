@@ -1,5 +1,16 @@
+//*****************
+//images
+//*****************
+
+
 .img--avatar {
   @include center;
   max-width: 50%;
   padding: 15px 0;
+}
+
+.img--frame {
+  max-width: 100%;
+  border: 1px solid $color-text;
+  padding: .8em;
 }

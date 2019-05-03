@@ -12,10 +12,29 @@ $button-red: #da6464;
 $button-orange: #f9704d;
 $button-purple: #9971c6;
 
+$color-primary-light: lighten($color-primary, 10%);
+$color-secondary-light: lighten($color-secondary, 10%);
+$color-secondary-dark: darken($color-secondary, 10%);
+$button-green-light: lighten($button-green, 10%);
+$button-red-light: lighten($button-red, 10%);
+$button-orange-light: lighten($button-orange, 10%);
+$button-purple-light: lighten($button-purple, 10%);
+
+
 
 $color-text: #868282;
 $color-text-light: lighten($color-text, 10%);
 $color-text-dark: darken($color-text, 10%);
+
+$themes: (
+  '--12': $color-primary-light,
+  '--6': $color-secondary-dark,
+  '--4': $color-secondary-light,
+  '--3': $button-purple-light,
+  '--5': $button-green-light,
+  '--7': $button-red-light,
+  '--8': $button-orange-light,
+);
 
 // Fonts
 $font-stack-primary: 'Helvetica Neue', 'Helvetica', sans-serif;

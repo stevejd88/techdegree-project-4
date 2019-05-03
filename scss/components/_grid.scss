@@ -14,6 +14,7 @@
   &__row {
     display: flex;
     flex-direction: column;
+    padding-top: 1.5em;
 
 
 
@@ -55,7 +56,18 @@
 }
 
 // targets all elements with classes that begin with grid__col
+@each $theme, $color in $themes{
+  .grid__col#{$theme}.theme__colors {
+    background-color: $color;
+    text-align: left;
+    padding-left: .8em;
+    border-radius: .3em;
+  }
+}
 [class^=grid__col] {
+
+
+
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
