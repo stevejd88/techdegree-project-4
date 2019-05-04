@@ -1,3 +1,27 @@
+.nav__item {
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 20px;
+}
+
+.grid__col--8 a, a {
+  text-decoration: none;
+}
+
+.img--avatar {
+  max-width: 50%;
+  padding: 15px 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -357,12 +381,10 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: #6c6969;
 }
 
 .grid__col--8 a {
-  text-decoration: none;
   color: #5bdef0;
 }
 
@@ -377,7 +399,7 @@ a {
   }
 }
 .grid__col--1 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -387,7 +409,7 @@ a {
   }
 }
 .grid__col--2 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -397,7 +419,7 @@ a {
   }
 }
 .grid__col--3 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -407,7 +429,7 @@ a {
   }
 }
 .grid__col--4 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -417,7 +439,7 @@ a {
   }
 }
 .grid__col--5 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -427,7 +449,7 @@ a {
   }
 }
 .grid__col--6 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -437,7 +459,7 @@ a {
   }
 }
 .grid__col--7 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -447,7 +469,7 @@ a {
   }
 }
 .grid__col--8 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -457,7 +479,7 @@ a {
   }
 }
 .grid__col--9 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -467,7 +489,7 @@ a {
   }
 }
 .grid__col--10 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -477,7 +499,7 @@ a {
   }
 }
 .grid__col--11 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -487,7 +509,7 @@ a {
   }
 }
 .grid__col--12 {
-  margin-top: 10px;
+  margin-top: 0.3em;
   flex-basis: 100%;
 }
 @media (min-width: 768px) {
@@ -501,49 +523,63 @@ a {
   background-color: #82e1c1;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--6.theme__colors {
   background-color: #2cd5ec;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--4.theme__colors {
   background-color: #8ae7f4;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--3.theme__colors {
   background-color: #b395d5;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--5.theme__colors {
   background-color: #85cc8e;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--7.theme__colors {
   background-color: #e48d8d;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 .grid__col--8.theme__colors {
   background-color: #fb987e;
   text-align: left;
   padding-left: 0.8em;
-  border-radius: 0.3em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 0.25em;
 }
 
 @media (min-width: 768px) {
@@ -599,39 +635,40 @@ input[type=password] {
   display: none;
 }
 
-.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
-  color: #ffffff;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  padding: 1em;
-  margin-top: 20px;
+.btn--default {
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.btn--default {
   background-color: #5bdef0;
 }
 .btn--success {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #61bd6d;
 }
 .btn--error {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #da6464;
 }
 .btn--warning {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #f9704d;
 }
 .btn--info {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #9971c6;
-}
-
-.nav__item {
-  color: red;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .img--avatar {
@@ -639,8 +676,6 @@ input[type=password] {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
-  padding: 15px 0;
 }
 
 .img--frame {

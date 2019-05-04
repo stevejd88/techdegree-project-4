@@ -1,3 +1,31 @@
 //****************************
 //extends
 //*****************************
+
+//navigation buttons
+%nav-btn {
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+//buttons
+%btn {
+  color: $white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 20px;
+}
+
+//links
+%a-style {
+  text-decoration: none;
+}
+
+//images
+%img-circ {
+  max-width: 50%;
+  padding: 15px 0;
+}

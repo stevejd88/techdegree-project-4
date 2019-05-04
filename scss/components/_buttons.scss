@@ -2,37 +2,30 @@
 //buttons
 //*******************
 
-
-
-%btn {
-  color: $white;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  padding: 1em;
-  margin-top: 20px;
-  @include center;
-}
-
 .btn {
   &--default {
     @extend %btn;
+    @include center;
     background-color: $color-secondary;
   }
   &--success {
     @extend %btn;
+    @include center;
     background-color: $button-green;
   }
   &--error {
     @extend %btn;
+    @include center;
     background-color: $button-red;
   }
   &--warning {
     @extend %btn;
+    @include center;
     background-color: $button-orange;
   }
   &--info {
     @extend %btn;
+    @include center;
     background-color: $button-purple;
   }
 }

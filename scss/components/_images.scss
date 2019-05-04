@@ -5,8 +5,7 @@
 
 .img--avatar {
   @include center;
-  max-width: 50%;
-  padding: 15px 0;
+  @extend %img-circ;
 }
 
 .img--frame {

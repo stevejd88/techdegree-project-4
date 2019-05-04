@@ -38,7 +38,7 @@
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
-        margin-top: 10px;
+        margin-top: .3em;
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
@@ -61,7 +61,9 @@
     background-color: $color;
     text-align: left;
     padding-left: .8em;
-    border-radius: .3em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    border-radius: .25em;
   }
 }
 [class^=grid__col] {
