@@ -6,9 +6,15 @@
 // but additional styling may be needed
 // **********************************************
 
+
 .grid__col--12 {
   @include mq('md') {
     @include flex-me($dir:row, $just:space-around);
+  }
+}
+.centered {
+  @include mq('md') {
+    margin: 0 auto;
   }
 }
 
@@ -25,7 +31,7 @@
 
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq('md') {
       flex-direction: row;
     }
   }
@@ -77,7 +83,6 @@
 [class^=grid__col] {
 
 
-
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
@@ -85,10 +90,7 @@
     @include mq('md') {
       @include center;
       // add grid gutter
-      margin-left: 10px;
-      .centered {
-        margin: 0 auto;
+      margin-left: 35px;
       }
     }
-  }
 }

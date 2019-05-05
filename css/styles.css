@@ -373,6 +373,7 @@ body {
   color: #868282;
   font-size: 1em;
   line-height: 1.5;
+  padding-bottom: 5em;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
@@ -396,6 +397,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .centered {
+    display: flex;
+    justify-content: center;
   }
 }
 
