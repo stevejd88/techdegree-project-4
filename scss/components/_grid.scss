@@ -12,11 +12,7 @@
     @include flex-me($dir:row, $just:space-around);
   }
 }
-.centered {
-  @include mq('md') {
-    margin: 0 auto;
-  }
-}
+
 
 
 // grid base class
@@ -32,7 +28,9 @@
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @include mq('md') {
+      display: flex;
       flex-direction: row;
+      justify-content: center;
     }
   }
 
@@ -80,6 +78,13 @@
     border-radius: .25em;
   }
 }
+ .centered {
+  @include mq('md') {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+}
 [class^=grid__col] {
 
 
@@ -87,7 +92,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @include mq('md') {
+     @include mq('md'){
       @include center;
       // add grid gutter
       margin-left: 35px;

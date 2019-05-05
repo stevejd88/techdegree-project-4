@@ -400,12 +400,6 @@ ul {
   }
 }
 
-@media (min-width: 768px) {
-  .centered {
-    margin: 0 auto;
-  }
-}
-
 .grid__row {
   display: flex;
   flex-direction: column;
@@ -414,6 +408,7 @@ ul {
 @media (min-width: 768px) {
   .grid__row {
     flex-direction: row;
+    display: flex;
   }
 }
 .grid__col--1 {
@@ -556,7 +551,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--6.theme__colors {
@@ -566,7 +560,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--4.theme__colors {
@@ -576,7 +569,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--3.theme__colors {
@@ -586,7 +578,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--5.theme__colors {
@@ -596,7 +587,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--7.theme__colors {
@@ -606,7 +596,6 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
 }
 
 .grid__col--8.theme__colors {
@@ -616,7 +605,12 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
-  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .grid__col--7.theme__colors {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 768px) {
