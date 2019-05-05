@@ -7,25 +7,40 @@
     @extend %btn;
     @include center;
     background-color: $color-secondary;
+    @include mq('md') {
+      width: 15%;
+    }
   }
   &--success {
     @extend %btn;
     @include center;
     background-color: $button-green;
+    @include mq('md') {
+      width: 15%;
+    }
   }
   &--error {
     @extend %btn;
     @include center;
     background-color: $button-red;
+    @include mq('md') {
+      width: 15%;
+    }
   }
   &--warning {
     @extend %btn;
     @include center;
     background-color: $button-orange;
+    @include mq('md') {
+      width: 15%;
+    }
   }
   &--info {
     @extend %btn;
     @include center;
     background-color: $button-purple;
+    @include mq('md') {
+      width: 15%;
+    }
   }
 }

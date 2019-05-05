@@ -391,6 +391,14 @@ ul {
   color: #5bdef0;
 }
 
+@media (min-width: 768px) {
+  .grid__col--12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 .grid__row {
   display: flex;
   flex-direction: column;
@@ -653,12 +661,23 @@ input[type=password] {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .form .headline--secondary {
+    margin: 1.33em 0;
+  }
+}
+
 .btn--default {
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #5bdef0;
+}
+@media (min-width: 768px) {
+  .btn--default {
+    width: 15%;
+  }
 }
 .btn--success {
   text-align: center;
@@ -667,12 +686,22 @@ input[type=password] {
   margin-right: auto;
   background-color: #61bd6d;
 }
+@media (min-width: 768px) {
+  .btn--success {
+    width: 15%;
+  }
+}
 .btn--error {
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #da6464;
+}
+@media (min-width: 768px) {
+  .btn--error {
+    width: 15%;
+  }
 }
 .btn--warning {
   text-align: center;
@@ -681,12 +710,22 @@ input[type=password] {
   margin-right: auto;
   background-color: #f9704d;
 }
+@media (min-width: 768px) {
+  .btn--warning {
+    width: 15%;
+  }
+}
 .btn--info {
   text-align: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #9971c6;
+}
+@media (min-width: 768px) {
+  .btn--info {
+    width: 15%;
+  }
 }
 
 .nav__item {

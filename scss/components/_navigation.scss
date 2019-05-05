@@ -13,8 +13,6 @@
 
 .nav {
   @include mq('md') {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    @include flex-me($dir:row, $just:flex-end);
   }
 }

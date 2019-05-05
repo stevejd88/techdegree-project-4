@@ -18,3 +18,9 @@ input[type="password"] {
 .form__label--hidden {
   display: none;
 }
+
+.form .headline--secondary {
+  @include mq('md') {
+    margin: 1.33em 0;
+  }
+}

@@ -6,6 +6,12 @@
 // but additional styling may be needed
 // **********************************************
 
+.grid__col--12 {
+  @include mq('md') {
+    @include flex-me($dir:row, $just:space-around);
+  }
+}
+
 
 // grid base class
 .grid {
@@ -43,10 +49,11 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
+        @include mq('md') {
 
           // base stlyes applied to all grid columns
           margin-top: 0;
+
 
           // make column width a percentage of the column number / total columns
           flex-basis: #{$i / 12 * 100 + "%"} ;
@@ -75,7 +82,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq('md') {
       @include center;
       // add grid gutter
       margin-left: 10px;
