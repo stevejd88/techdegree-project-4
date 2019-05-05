@@ -18,9 +18,12 @@ ul {
   list-style-type: none;
 }
 
-a {
+.nav a {
   @extend %a-style;
   color: $color-text-dark;
+  &:hover {
+    color: $white;
+  }
 }
 
 .grid__col--8 a {

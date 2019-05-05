@@ -1,3 +1,20 @@
 .nav__item {
   @extend %nav-btn;
+  border-radius: .3em;
+  @include mq('md') {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  &:hover {
+    color: $white;
+    background-color: $color-primary;
+  }
+}
+
+.nav {
+  @include mq('md') {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }

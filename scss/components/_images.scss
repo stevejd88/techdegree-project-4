@@ -13,3 +13,10 @@
   border: 1px solid $color-text;
   padding: .8em;
 }
+
+.img--logo {
+  @include mq('md') {
+    align-self: flex-start;
+    margin-right: auto;
+  }
+}
