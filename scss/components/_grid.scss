@@ -31,6 +31,7 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+
     }
   }
 
@@ -76,15 +77,12 @@
     padding-top: .25em;
     padding-bottom: .25em;
     border-radius: .25em;
+    @include mq('md') {
+      text-align: center;
+    }
   }
 }
- .centered {
-  @include mq('md') {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-  }
-}
+
 [class^=grid__col] {
 
 
@@ -95,7 +93,7 @@
      @include mq('md'){
       @include center;
       // add grid gutter
-      margin-left: 35px;
+      margin-left: 10px;
       }
     }
 }

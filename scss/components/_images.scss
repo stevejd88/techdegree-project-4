@@ -2,21 +2,22 @@
 //images
 //*****************
 
+.img {
+  &--avatar {
+    @extend %img-circ;
+    @include center;
+  }
 
-.img--avatar {
-  @include center;
-  @extend %img-circ;
-}
+  &--frame {
+    max-width: 100%;
+    border: 1px solid $color-text;
+    padding: .8em;
+  }
 
-.img--frame {
-  max-width: 100%;
-  border: 1px solid $color-text;
-  padding: .8em;
-}
-
-.img--logo {
-  @include mq('md') {
-    align-self: flex-start;
-    margin-right: auto;
+  &--logo {
+    @include mq('md') {
+      align-self: flex-start;
+      margin-right: auto;
+    }
   }
 }

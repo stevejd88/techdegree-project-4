@@ -18,8 +18,9 @@
 }
 
 .img--avatar {
-  max-width: 50%;
-  padding: 15px 0;
+  max-height: 200px;
+  max-width: 200px;
+  padding-top: 20px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -409,6 +410,7 @@ ul {
   .grid__row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 }
 .grid__col--1 {
@@ -552,6 +554,11 @@ ul {
   padding-bottom: 0.25em;
   border-radius: 0.25em;
 }
+@media (min-width: 768px) {
+  .grid__col--12.theme__colors {
+    text-align: center;
+  }
+}
 
 .grid__col--6.theme__colors {
   background-color: #2cd5ec;
@@ -560,6 +567,11 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
+}
+@media (min-width: 768px) {
+  .grid__col--6.theme__colors {
+    text-align: center;
+  }
 }
 
 .grid__col--4.theme__colors {
@@ -570,6 +582,11 @@ ul {
   padding-bottom: 0.25em;
   border-radius: 0.25em;
 }
+@media (min-width: 768px) {
+  .grid__col--4.theme__colors {
+    text-align: center;
+  }
+}
 
 .grid__col--3.theme__colors {
   background-color: #b395d5;
@@ -578,6 +595,11 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
+}
+@media (min-width: 768px) {
+  .grid__col--3.theme__colors {
+    text-align: center;
+  }
 }
 
 .grid__col--5.theme__colors {
@@ -588,6 +610,11 @@ ul {
   padding-bottom: 0.25em;
   border-radius: 0.25em;
 }
+@media (min-width: 768px) {
+  .grid__col--5.theme__colors {
+    text-align: center;
+  }
+}
 
 .grid__col--7.theme__colors {
   background-color: #e48d8d;
@@ -596,6 +623,11 @@ ul {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   border-radius: 0.25em;
+}
+@media (min-width: 768px) {
+  .grid__col--7.theme__colors {
+    text-align: center;
+  }
 }
 
 .grid__col--8.theme__colors {
@@ -606,12 +638,9 @@ ul {
   padding-bottom: 0.25em;
   border-radius: 0.25em;
 }
-
 @media (min-width: 768px) {
-  .centered {
-    display: flex;
-    justify-content: center;
-    flex: 1;
+  .grid__col--8.theme__colors {
+    text-align: center;
   }
 }
 
@@ -621,7 +650,7 @@ ul {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 35px;
+    margin-left: 10px;
   }
 }
 
@@ -767,13 +796,11 @@ input[type=password] {
   margin-left: auto;
   margin-right: auto;
 }
-
 .img--frame {
   max-width: 100%;
   border: 1px solid #868282;
   padding: 0.8em;
 }
-
 @media (min-width: 768px) {
   .img--logo {
     align-self: flex-start;
