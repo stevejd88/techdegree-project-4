@@ -1,5 +1,4 @@
 .nav__item {
-  color: red;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -383,6 +382,7 @@ ul {
 }
 
 .nav a {
+  padding: 1em;
   color: #6c6969;
 }
 .nav a:hover {

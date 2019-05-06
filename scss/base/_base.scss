@@ -21,6 +21,7 @@ ul {
 
 .nav a {
   @extend %a-style;
+  padding: 1em;
   color: $color-text-dark;
   &:hover {
     color: $white;
