@@ -20,18 +20,14 @@
 
   // .grid__row
   &__row {
-    display: flex;
-    flex-direction: column;
+    @include flex-me($dir:column);
     padding-top: 2em;
 
 
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @include mq('md') {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
+      @include flex-me($dir:row, $just:center);
     }
   }
 
